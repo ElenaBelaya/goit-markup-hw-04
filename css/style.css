@@ -214,7 +214,27 @@ header {
 
   flex-basis: calc((100% - 90px) / 4);
 }
-
+.dignity-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: var(--background-button-color);
+  background-size: 70px 70px;
+}
+.icon-antenna::before {
+  background-image: url(../images/icons/antenna\ 1.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/icons/clock\ 1.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/icons/diagram\ 1.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/icons/astronaut\ 1.svg);
+}
 .dignity-title {
   font-size: 14px;
   line-height: 1.14;
