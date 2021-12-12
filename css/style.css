@@ -228,29 +228,15 @@ header {
 
 .dignity-item {
   list-style-type: none;
-
-  flex-basis: calc((100% - 90px) / 4);
+  width: 270px;
 }
-.dignity-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+/*flex-basis: calc((100% - 90px) / 4);
+проверить почему не работает формула*/
+.dignity-item .icon {
   background-color: var(--background-button-color);
-  background-size: 70px 70px;
-}
-.icon-antenna::before {
-  background-image: url(../images/icons/antenna\ 1.svg);
-}
-.icon-clock::before {
-  background-image: url(../images/icons/clock\ 1.svg);
-}
-.icon-diagram::before {
-  background-image: url(../images/icons/diagram\ 1.svg);
-}
-.icon-astronaut::before {
-  background-image: url(../images/icons/astronaut\ 1.svg);
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
 }
 .dignity-title {
   font-size: 14px;
@@ -314,8 +300,8 @@ header {
 .example-list .example-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
-.container-clients {
-}
+/*.container-clients {
+}*/
 
 .example-title {
   font-size: 18px;
