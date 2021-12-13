@@ -232,19 +232,21 @@ header {
 }
 /*flex-basis: calc((100% - 90px) / 4);
 проверить почему не работает формула*/
-.dignity-item .icon {
-  background-color: var(--background-button-color);
+
+.dignity-icon {
   display: flex;
-  height: 120px;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--background-button-color);
 }
+
 .dignity-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
   color: var(--primary-text-color);
-
   margin-bottom: 10px;
 }
 .dignity-text {
