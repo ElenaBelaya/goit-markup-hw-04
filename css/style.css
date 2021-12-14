@@ -361,12 +361,7 @@ header {
 .client-icon:focus {
   fill: var(--accent-color);
 }
-/*карточка Портфолио
-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0,16),
-0px 4px 4px 0px rgba(0, 0, 0, 0,06),
-0px 1px 1px 0px rgba(0, 0, 0, 0,12);
 
-*/
 .example-list {
   display: flex;
   flex-wrap: wrap;
@@ -401,7 +396,10 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0,16),
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-
+.example-link:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0, 16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0, 06), 0px 1px 1px 0px rgba(0, 0, 0, 0, 12);
+}
 button {
   cursor: pointer;
   border-radius: 4px;
@@ -429,7 +427,6 @@ button {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0, 12),
     0px 1px 2px 0px rgba(0, 0, 0, 0, 08), 0px 3px 1px 0px rgba(0, 0, 0, 0, 1);
 }
-
 .btn-list {
   display: flex;
   margin-bottom: 50px;
