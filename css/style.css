@@ -110,7 +110,7 @@ header {
   height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
+ }
 .btn:hover,
 .btn:focus {
   background-color: var(--primary-bottom-color);
@@ -377,7 +377,13 @@ header {
 .example-list .example-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
-
+.example-link {
+  display: block;
+}
+.example-link:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0, 16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0, 06), 0px 1px 1px 0px rgba(0, 0, 0, 0, 12);
+}
 .example-title {
   font-size: 18px;
   line-height: 2;
@@ -396,9 +402,7 @@ header {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.example-link:hover {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0, 16),
-    0px 4px 4px 0px rgba(0, 0, 0, 0, 06), 0px 1px 1px 0px rgba(0, 0, 0, 0, 12);
+
 }
 button {
   cursor: pointer;
