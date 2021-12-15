@@ -361,11 +361,7 @@ header {
 .client-icon:focus {
   fill: var(--accent-color);
 }
-/*карточка Портфолио
-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0,16),
-0px 4px 4px 0px rgba(0, 0, 0, 0,06),
-0px 1px 1px 0px rgba(0, 0, 0, 0,12);
-*/
+
 .example-list {
   display: flex;
   flex-wrap: wrap;
@@ -383,6 +379,7 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0,16),
 }
 
 .example-title {
+  color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -400,7 +397,18 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0,16),
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-
+.example-list,
+.btn-list {
+  list-style-type: none;
+}
+.example-link {
+  display: block;
+  text-decoration: none;
+}
+.example-link:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0, 16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0, 06), 0px 1px 1px 0px rgba(0, 0, 0, 0, 12);
+}
 button {
   cursor: pointer;
   border-radius: 4px;
@@ -436,11 +444,6 @@ button {
 }
 .btn-list .item:not(:first-child) {
   margin-left: 8px;
-}
-
-.example-list,
-.btn-list {
-  list-style-type: none;
 }
 
 /*==========Footer==========*/
